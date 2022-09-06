@@ -1,6 +1,6 @@
-function [L, S] = trpca_explr_plus(X,lambda,opts)
-%TRPCA_EXPLR 此处显示有关此函数的摘要
-%   此处显示详细说明 IRNN
+function [L, S] = trpca_nonconvex(X,lambda,opts)
+%TRPCA_NONCONVEX 姝ゅ鏄剧ず鏈夊叧姝ゅ嚱鏁扮殑鎽樿
+%   姝ゅ鏄剧ず璇︾粏璇存槑
 %   min_{L,S}  sum_i( g(sigmai(L))*sigmai(L) + lambda*||S||_1
 %   s.t.         X = L + S
 
