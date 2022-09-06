@@ -61,7 +61,7 @@ opts.fun = 'oddfunc' ; opts.gamma = 0.01;
 % opts.fun = 'logarithm' ; opts.gamma = 10 ;
 
 tic
-[TRec,  S] = trpca_explr_plus(T_real, lambda,opts);
+[TRec,  S] = trpca_nonconvex(T_real, lambda,opts);
 time = toc;
 
 %% classification
